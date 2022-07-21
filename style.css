@@ -1,0 +1,80 @@
+body {
+    font-family: sans-serif;
+    background: url("img/back.jpg");
+    background-size: cover;
+}
+
+input {
+    background-color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+}
+
+.wrap {
+    margin: auto;
+    list-style-position: inside;
+    width: 300px;
+    line-height: 2;
+}
+
+.total, .total-done {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+button {
+    background-color: #1859e8;
+    color: white;
+    border-color: #000000;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0 3px 5px #000c;
+}
+
+button:active {
+    background-color: #306fff;
+    color: #000000;
+    border-color: #8d8d8d;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0 3px 5px #000c;
+}
+
+btn {
+    background-color: #1859e8;
+    color: white;
+    border-color: #000000;
+    border-radius: 2px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 3px 5px #000c;
+    margin: 4px;
+}
+
+btn:active {
+    background-color: #306fff;
+    color: #000000;
+    border-color: #8d8d8d;
+    border-radius: 2px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 3px 5px #000c;
+    margin: 4px;
+}
+
+li:first-letter {
+    text-transform: capitalize;
+}
+
+.li-active {
+    text-decoration: line-through;
+}
+
+li {
+    font-size: 20px;
+}
+
